@@ -1,0 +1,13 @@
+# This file lists all files that should be localized for a release.
+#
+Encodingrule: java-resource => utf_8_sig
+Encodingrule: text-file => utf_8_sig
+#################################
+# WhatsNew (on-prem)
+[service-mgmt/services/restapilayer/whatsnew/onprem/%M]
+   whatsnew-title.txt
+#   whatsnew-content.md
+# WhatsNew (on-saas)
+[service-mgmt/services/restapilayer/whatsnew/onsaas/%M]
+   whatsnew-title.txt
+ #  whatsnew-content.md
