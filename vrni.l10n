@@ -6,8 +6,8 @@ Encodingrule: text-file => utf_8_sig
 # WhatsNew (on-prem)
 [service-mgmt/services/restapilayer/whatsnew/onprem/%M]
    whatsnew-title.txt
-   whatsnew-content.md
+#   whatsnew-content.md
 # WhatsNew (on-saas)
 [service-mgmt/services/restapilayer/whatsnew/onsaas/%M]
    whatsnew-title.txt
-   whatsnew-content.md
+#   whatsnew-content.md
