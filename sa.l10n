@@ -1,0 +1,33 @@
+#
+# Definition of the localization (l10n) files for pace.  All files that need to be localized for PACE must be defined
+# here.
+#
+# For details on the file format and information of the utilities that use this file, please see the wiki page
+#
+#     https://wiki.eng.vmware.com/Build/L10NSupport
+#
+# Updates to this file should be verified using the command
+#
+#    $ l10n-util verify -f sa.l10n
+#
+
+###########################################################
+# PLEASE ADD NON-UI PROPERTY FILES BELOW THIS
+###########################################################
+
+# Analyst Sync Service Strings
+[nsx-antimalware/sa-scheduler-services/src/main/resources/META-INF/messages]
+    SaSchedulerServicesErrorMessages%j.properties
+
+# ASDS Strings
+[nsx-antimalware/asds/src/main/resources/META-INF/messages]
+    SaAsdsServicesErrorMessages%j.properties
+
+# EventProcessor Strings
+
+# API & RAPID error Related Strings
+[nsx-antimalware/sa-web-services/src/main/resources/META-INF/messages]
+    SaWebServicesErrorMessages%j.properties
+    SaWebServicesRapidErrorMessages%j.properties
+
+# Reputation Strings
